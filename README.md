@@ -12,7 +12,7 @@
 **Official Submission & Research Codebase for "The Pareidolia Paradox" (IEEE SIES GST)**  
 *Binary Classification of Monocular Lunar Surface Imagery under Dynamic Solar Illumination*
 
-[**Key Innovations**](#-key-engineering-innovations) • [**Benchmark Progression**](#-benchmark-progression) • [**Model Portfolio**](#-16-model-checkpoints-portfolio) • [**Interactive Demo**](#-interactive-demo-cli) • [**Quickstart**](#-quickstart-guide)
+[**Key Innovations**](#-key-engineering-innovations) • [**Benchmark Progression**](#-benchmark-progression) • [**Model Portfolio**](#-16-model-checkpoints-portfolio-731-mb) • [**Interactive Demo**](#-interactive-demo-cli) • [**Quickstart**](#-quickstart-guide)
 
 </div>
 
@@ -172,7 +172,7 @@ python check_environment.py
 
 ### 1. Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/pareidolia-paradox.git
+git clone https://github.com/manasgharat1/pareidolia-paradox.git
 cd pareidolia-paradox
 
 python -m venv venv
@@ -185,7 +185,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. Download Pretrained Weights
-Download the 16 checkpoint `.pt` files from the Google Drive link specified in `checkpoints/README.md` and place them directly in `checkpoints/`.
+Download `model_weights.zip` from the Google Drive link specified in `checkpoints/README.md` and place them directly in `checkpoints/`.
 
 ### 3. Run Inference & Generate Submission
 ```bash
@@ -202,26 +202,26 @@ python submission/verify_submission.py submission/submission.csv
 ## 📁 Repository Directory Structure
 
 ```text
-pareidolia_local/
+pareidolia-paradox/
 ├── README.md                          # Main publication documentation
 ├── LICENSE                            # MIT Open Source License
 ├── requirements.txt                   # Dependency specification
+├── .gitignore                         # Git exclusion rules (.pt weights, data/, venv/)
 ├── train.py                           # Root training entry point
 ├── inference.py                       # Root inference entry point
 ├── demo.py                            # Interactive single-image demonstration CLI
 ├── check_environment.py               # Complete environment & submission validator
+├── assets/
+│   ├── pareidolia_illusion.png        # Illusion explanation diagram
+│   ├── azimuth_rotation.jpg           # 55px reflection padding rotation diagram
+│   └── three_channel_input.png        # 3-channel differential physics tensor diagram
 ├── checkpoints/
 │   ├── README.md                      # Download links and weights placement guide
-│   ├── optimal_ensemble_weights.json  # SLSQP solved continuous weights & threshold
-│   └── *.pt                           # 16 trained model weights (~731 MB, via Drive)
+│   └── optimal_ensemble_weights.json  # SLSQP solved continuous weights & threshold
 ├── submission/
 │   ├── submission.csv                 # Official 2,000 predictions (verified)
 │   ├── verify_submission.py           # Automated 100% compliance verifier
-│   ├── COMPREHENSIVE_EXPLANATION_GUIDE.md # Technical & architectural manual
-│   ├── OVERALL_BENCHMARK_REPORT.md    # Chronological benchmark audit (58.2% -> 86.2%)
-│   ├── METHODOLOGY_SUMMARY.md         # Solar azimuth handling explanation
-│   ├── MODEL_WEIGHTS_INFO.txt         # Weights upload checklist
-│   └── LINKEDIN_POST.txt              # Ready-to-copy post tagging @IEEE SIES GST
+│   └── METHODOLOGY_SUMMARY.md         # Solar azimuth handling explanation
 └── src/
     ├── dataset.py                     # Reflection padding & azimuth rotation engine
     ├── model.py                       # 5 neural architectures & GPU Sobel tensors
@@ -254,3 +254,6 @@ If you find this repository, the reflection-padding theorem, or the differential
 If you appreciate the depth of this research, the mathematical proofs, or the open-source pipeline, **please give this repository a ⭐ on GitHub!**
 
 Organized with thanks to **IEEE SIES GST** for hosting *The Pareidolia Paradox* challenge bridging space exploration, physics, and computer vision.
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
