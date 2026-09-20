@@ -1,0 +1,41 @@
+{
+  "checkpoint_names": [
+    "best_convnext_fold1.pt",
+    "best_densenet121_fold1.pt",
+    "best_efficientnet_fold1.pt",
+    "best_efficientnet_fold2.pt",
+    "best_efficientnet_fold3.pt",
+    "best_efficientnet_fold4.pt",
+    "best_efficientnet_fold5.pt",
+    "best_efficientnet_pseudo_fold1.pt",
+    "best_efficientnet_pseudo_fold2.pt",
+    "best_efficientnet_v2_s_pseudo_fold1.pt",
+    "best_resnet34_fold1.pt",
+    "best_resnet34_fold2.pt",
+    "best_resnet34_fold3.pt",
+    "best_resnet34_fold4.pt",
+    "best_resnet34_fold5.pt",
+    "best_resnet34_pseudo_fold1.pt"
+  ],
+  "weights": [
+    0.06104117900149017,
+    0.06108990565418,
+    0.0633278042871056,
+    0.0629801197239992,
+    0.06353879116076608,
+    0.0627687925114664,
+    0.06267836223532072,
+    0.06106325241649225,
+    0.06320618427705958,
+    0.06133882218175241,
+    0.06229757077817925,
+    0.06536825152619667,
+    0.0635866482686034,
+    0.061296719996438126,
+    0.06348730045567785,
+    0.060930295525272224
+  ],
+  "optimal_threshold": 0.527081549849107,
+  "val_bacc_baseline": 0.7390481611208406,
+  "val_bacc_optimized": 0.7418126094570928
+}
