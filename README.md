@@ -3,7 +3,7 @@
 # 🌕 The Pareidolia Paradox — Monocular Lunar Topography Classification
 
 [![Competition](https://img.shields.io/badge/IEEE%20SIES%20GST-The%20Pareidolia%20Paradox-blue?style=for-the-badge&logo=ieee)](https://ieee.org)
-[![Balanced Accuracy](https://img.shields.io/badge/Balanced%20Accuracy-86.20%25-brightgreen?style=for-the-badge&logo=target)](file:///submission/submission.csv)
+[![Balanced Accuracy](https://img.shields.io/badge/Balanced%20Accuracy-86.20%25-brightgreen?style=for-the-badge&logo=target)](submission/submission.csv)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x%20%7C%20CUDA%2012.x-orange?style=for-the-badge&logo=pytorch)](https://pytorch.org)
 [![Python](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue?style=for-the-badge&logo=python)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
