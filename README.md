@@ -238,11 +238,11 @@ If you find this repository, the reflection-padding theorem, or the differential
 
 ```bibtex
 @misc{gharat2026pareidolia,
-  author = {Manas Pran Gharat},
+  author = {Manas Pran Gharat and Krushna Arvind Katkar and Harish Kiran Desai},
   title = {The Pareidolia Paradox: Resolving Monocular Lunar Shading Inversion via Reflection-Padded Rotation and Multi-Backbone Ensemble},
   year = {2026},
   publisher = {GitHub},
-  howpublished = {\url{https://github.com/YOUR_USERNAME/pareidolia-paradox}},
+  howpublished = {\url{https://github.com/manasgharat1/pareidolia-paradox}},
   note = {IEEE SIES GST Machine Learning Competition}
 }
 ```
