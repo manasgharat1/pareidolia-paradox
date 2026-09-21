@@ -181,6 +181,8 @@ python check_environment.py
 > [!NOTE]
 > All inference scripts automatically detect whether a CUDA GPU is present and fall back to CPU execution if no GPU is found.
 
+---
+
 ## 🚀 Quickstart Guide
 
 ### 1. Installation
