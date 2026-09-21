@@ -168,6 +168,19 @@ python check_environment.py
 
 ---
 
+## 💻 Hardware Requirements
+
+| Component | Minimum Specification | Recommended Specification |
+| :--- | :--- | :--- |
+| **GPU** | NVIDIA GPU with 4GB VRAM (or CPU fallback) | NVIDIA GPU with 6GB+ VRAM (RTX 3060/4060/A100/T4) |
+| **CUDA** | CUDA 11.8 / 12.x (PyTorch compatible) | CUDA 12.x with cuDNN acceleration |
+| **RAM** | 8 GB System Memory | 16 GB+ System Memory |
+| **Storage** | ~2 GB free space (code, venv, and 784 MB weights) | Fast NVMe SSD |
+| **OS** | Windows 10/11, Ubuntu 20.04+, or macOS | Linux or Windows 11 |
+
+> [!NOTE]
+> All inference scripts automatically detect whether a CUDA GPU is present and fall back to CPU execution if no GPU is found.
+
 ## 🚀 Quickstart Guide
 
 ### 1. Installation
