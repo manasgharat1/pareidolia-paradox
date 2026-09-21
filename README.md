@@ -217,11 +217,7 @@ pareidolia_local/
 ├── submission/
 │   ├── submission.csv                 # Official 2,000 predictions (verified)
 │   ├── verify_submission.py           # Automated 100% compliance verifier
-│   ├── COMPREHENSIVE_EXPLANATION_GUIDE.md # Technical & architectural manual
-│   ├── OVERALL_BENCHMARK_REPORT.md    # Chronological benchmark audit (58.2% -> 86.2%)
-│   ├── METHODOLOGY_SUMMARY.md         # Solar azimuth handling explanation
-│   ├── MODEL_WEIGHTS_INFO.txt         # Weights upload checklist
-│   └── LINKEDIN_POST.txt              # Ready-to-copy post tagging @IEEE SIES GST
+│   └── METHODOLOGY_SUMMARY.md         # Solar azimuth handling explanation
 └── src/
     ├── dataset.py                     # Reflection padding & azimuth rotation engine
     ├── model.py                       # 5 neural architectures & GPU Sobel tensors
